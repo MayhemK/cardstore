@@ -1,4 +1,6 @@
 <script setup>
+import MagiPage from './MagiPage.vue';
+
 
 
 </script>
@@ -20,20 +22,26 @@
         </div>
         <div class="row text-center modak fs-1 p-2">
           <div class="col-md-6 col-12">
-            <img src="../assets/img/cards.svg" alt="Pokemon Card Back Image" class="card"
-              title="Back of a Pokemon card">
+            <RouterLink :to="{ name: 'PokePage' }"> <img src="../assets/img/cards.svg" alt="Pokemon Card Back Image"
+                class="card" title="Back of a Pokemon card"></RouterLink>
           </div>
           <div class="col-md-6 col-12">
-            <img src="https://a.pinatafarm.com/1858x1304/ff543bb12a/stonks-without-stonks.jpg" alt="" class="img">
+            <RouterLink :to="{ name: 'PokeMarket' }">
+              <img src="https://a.pinatafarm.com/1858x1304/ff543bb12a/stonks-without-stonks.jpg" alt="" class="img">
+            </RouterLink>
           </div>
         </div>
         <div class="row text-center modak fs-1 p-2">
           <div class="col-md-6 col-12">
-            <img src="../assets/img/cards.svg" alt="Magic Card Back Image" class="card"
-              title="Back of a Magic The Gathering card">
+            <RouterLink :to="{ name: 'MagiPage' }">
+              <img src="../assets/img/cards.svg" alt="Magic Card Back Image" class="card"
+                title="Back of a Magic The Gathering card">
+            </RouterLink>
           </div>
           <div class="col-md-6 col-12">
-            <img src="https://a.pinatafarm.com/1858x1304/ff543bb12a/stonks-without-stonks.jpg" alt="" class="img">
+            <RouterLink :to="{ name: 'MagiMarket' }">
+              <img src="https://a.pinatafarm.com/1858x1304/ff543bb12a/stonks-without-stonks.jpg" alt="" class="img">
+            </RouterLink>
           </div>
         </div>
       </div>

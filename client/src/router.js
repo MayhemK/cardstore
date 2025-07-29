@@ -17,6 +17,26 @@ const routes = [
     component: loadPage('AboutPage')
   },
   {
+    path: '/pokemon',
+    name: 'PokePage',
+    component: loadPage('PokePage')
+  },
+  {
+    path: '/magic',
+    name: 'MagiPage',
+    component: loadPage('MagiPage')
+  },
+  {
+    path: '/pokemon-market',
+    name: 'PokeMarket',
+    component: loadPage('PokeMarket')
+  },
+  {
+    path: '/magic-market',
+    name: 'MagiMarket',
+    component: loadPage('MagiMarket')
+  },
+  {
     path: '/account',
     name: 'Account',
     component: loadPage('AccountPage'),

@@ -4,7 +4,13 @@
 
 
 <template>
-  This is the pokepage
+  <section class="container">
+    <div class="row">
+      <div class="col-12">
+        card listings
+      </div>
+    </div>
+  </section>
 </template>
 
 

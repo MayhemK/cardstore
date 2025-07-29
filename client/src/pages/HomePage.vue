@@ -1,5 +1,4 @@
 <script setup>
-import MagiPage from './MagiPage.vue';
 
 
 
